@@ -2,13 +2,13 @@ $headingsBackgroundColor: lightgray;
 $textBackgroundColor: rgb(234, 236, 236);
 
 @media (min-width: 600px) {
-    table{
+    table {
         width: 50%;
     }
 }
 @media (max-width: 599px) {
-    table{
-        width: 30%;
+    table {
+        width: 100%;
     }
 }
 
