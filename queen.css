@@ -10,6 +10,18 @@
   }
 }
 
+.introParagraph, .secondParagraph {
+  padding: 5px;
+}
+
+.introParagraph {
+  background-color: #eaecec;
+}
+
+.secondParagraph {
+  font-style: italic;
+}
+
 body,
 head {
   font-family: Arial, Helvetica, sans-serif;
@@ -18,11 +30,6 @@ head {
 h2,
 th {
   background-color: lightgray;
-}
-
-.grayParagraph {
-  padding: 5px;
-  background-color: #eaecec;
 }
 
 .center {

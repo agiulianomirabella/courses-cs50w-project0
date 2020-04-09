@@ -1,5 +1,5 @@
 $headingsBackgroundColor: lightgray;
-$textBackgroundColor: rgb(234, 236, 236);
+$introTextBackgroundColor: rgb(234, 236, 236);
 
 @media (min-width: 600px) {
     table {
@@ -12,6 +12,20 @@ $textBackgroundColor: rgb(234, 236, 236);
     }
 }
 
+%paragraph {
+    padding: 5px;
+}
+
+.introParagraph {
+    @extend %paragraph;
+    background-color: $introTextBackgroundColor;
+}
+
+.secondParagraph {
+    @extend %paragraph;
+    font-style: italic;
+}
+
 body,
 head {
     font-family: Arial, Helvetica, sans-serif;
@@ -20,11 +34,6 @@ head {
 h2,
 th {
     background-color: $headingsBackgroundColor;
-}
-
-.grayParagraph {
-    padding: 5px;
-    background-color: $textBackgroundColor;
 }
 
 .center {
