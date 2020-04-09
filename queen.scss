@@ -1,15 +1,17 @@
-$headingsColor: lightgray;
+$headingsBackgroundColor: lightgray;
+$textBackgroundColor: rgb(234, 236, 236);
 
 body, head {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h2, th {
-    background-color: $headingsColor;
+    background-color: $headingsBackgroundColor;
 }
 
-#introduction {
-    background-color: rgb(234, 236, 236);
+.grayParagraph {
+    padding: 5px;
+    background-color: $textBackgroundColor;
 }
 
 .center {
@@ -22,7 +24,7 @@ img {
 }
 
 table {
-    margin: 8px;
+    margin: 10px;
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -31,4 +33,25 @@ td, th{
     padding: 3px;
     border: 1px solid black;
     text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    div {
+        background-color: rgb(109, 128, 148);
+        font-family: fantasy;
+        font-style: italic;
+        margin: 10px;
+        padding: 20px;
+        width: 200px;
+        img {
+            width: 200px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+
 }
