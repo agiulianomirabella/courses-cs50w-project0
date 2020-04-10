@@ -6,6 +6,10 @@
   .container div {
     padding: 20px;
     margin: 10px;
+    width: 200px;
+  }
+  .container div img {
+    width: 200px;
   }
 }
 
@@ -13,10 +17,10 @@
   .container div {
     padding: 8px;
     margin: 5px;
-    width: 40%;
+    width: 100px;
   }
   .container div img {
-    width: 40%;
+    width: 100px;
   }
 }
 
@@ -89,10 +93,5 @@ th {
   background-color: #6d8094;
   font-family: fantasy;
   font-style: italic;
-  width: 200px;
-}
-
-.container div img {
-  width: 200px;
 }
 /*# sourceMappingURL=queen.css.map */
