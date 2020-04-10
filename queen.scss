@@ -5,6 +5,23 @@ $introTextBackgroundColor: rgb(234, 236, 236);
     display: none;
 }
 
+@media (min-width: 700px) {
+    .container div {
+        padding: 20px;
+        margin: 10px;
+    }
+}
+@media (max-width: 699px) {
+    .container div {
+        padding: 8px;
+        margin: 5px;
+        width: 40%;
+        img {
+            width: 40%;
+        }
+    }
+}
+
 @media print {
     .screen-only {
         display: none;
@@ -70,8 +87,6 @@ th {
         background-color: rgb(109, 128, 148);
         font-family: fantasy;
         font-style: italic;
-        margin: 10px;
-        padding: 20px;
         width: 200px;
         img {
             width: 200px;
