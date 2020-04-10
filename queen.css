@@ -45,6 +45,13 @@
   font-style: italic;
 }
 
+#specialID {
+  font-style: italic;
+  font-size: smaller;
+  padding: 8px;
+  text-align: center;
+}
+
 body,
 head {
   font-family: Arial, Helvetica, sans-serif;
