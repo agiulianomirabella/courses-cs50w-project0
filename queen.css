@@ -1,12 +1,13 @@
-@media (min-width: 600px) {
-  table {
-    width: 50%;
-  }
+.print-only {
+  display: none;
 }
 
-@media (max-width: 599px) {
-  table {
-    width: 100%;
+@media print {
+  .screen-only {
+    display: none;
+  }
+  .print-only {
+    display: inline;
   }
 }
 
@@ -39,6 +40,7 @@ th {
 
 img {
   display: block;
+  width: 50%;
 }
 
 table {
