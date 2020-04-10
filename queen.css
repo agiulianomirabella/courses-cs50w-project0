@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .container div {
     padding: 20px;
     margin: 10px;
@@ -13,14 +13,14 @@
   }
 }
 
-@media (max-width: 699px) {
+@media (max-width: 999px) {
   .container div {
     padding: 8px;
     margin: 5px;
-    width: 30%;
+    width: 100px;
   }
   .container div img {
-    width: 30%;
+    width: 100px;
   }
 }
 
