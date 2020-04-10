@@ -66,6 +66,9 @@ img {
 }
 
 table {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: 10px;
   border: 2px solid black;
   border-collapse: collapse;
