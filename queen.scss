@@ -15,13 +15,14 @@ $introTextBackgroundColor: rgb(234, 236, 236);
         }
     }
 }
+
 @media (max-width: 699px) {
     .container div {
         padding: 8px;
         margin: 5px;
-        width: 100px;
+        width: 30%;
         img {
-            width: 100px;
+            width: 30%;
         }
     }
 }

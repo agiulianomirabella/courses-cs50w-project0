@@ -17,10 +17,10 @@
   .container div {
     padding: 8px;
     margin: 5px;
-    width: 100px;
+    width: 30%;
   }
   .container div img {
-    width: 100px;
+    width: 30%;
   }
 }
 
