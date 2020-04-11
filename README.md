@@ -29,4 +29,5 @@ Requirements list:
 	- SCSS variable: $headingsBackgroundColor and $introTextBackgroundColor, in queen.scss
 	- SCSS nesting: in .container, among others.
 	- SCSS inheritance: .introParagraph and .secondParagraph inherit from %paragraph.
-	
+
+YouTube video link: https://youtu.be/zDJJ7Fr-4jM
