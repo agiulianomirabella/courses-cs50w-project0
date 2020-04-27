@@ -31,3 +31,4 @@ Web Programming with Python and JavaScript
 	* SCSS inheritance: .introParagraph and .secondParagraph inherit from %paragraph.
 
 * YouTube video link: https://youtu.be/zDJJ7Fr-4jM
+* Website url: https://agiulianomirabella.github.io/courses-cs50w-project0/
